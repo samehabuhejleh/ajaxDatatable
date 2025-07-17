@@ -26,6 +26,13 @@
 					</a>
 				</li>
 				<li>
+					<a href="/categories/">
+						<div class="parent-icon"><i class='bx bx-category'></i>
+						</div>
+						<div class="menu-title">categories</div>
+					</a>
+				</li>
+				<li>
 					<a href="/product/">
 						<div class="parent-icon"> <i class="bx bx-shopping-bag"></i>
 						</div>

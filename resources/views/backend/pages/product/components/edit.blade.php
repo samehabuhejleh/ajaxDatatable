@@ -6,7 +6,7 @@
                 <h5 class="modal-title" id="editModalLabel">Edit Product</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form id="edit-form" enctype="multipart/form-data"  class="form">
+            <form id="edit-form" class="form">
                 @csrf
                 @method('PUT')
                 <div class="modal-body">

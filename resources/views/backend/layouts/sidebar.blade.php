@@ -19,14 +19,14 @@
 					</a>
 				</li>
 				<li>
-					<a href="category/">
+					<a href="/category/">
 						<div class="parent-icon"><i class='bx bx-category'></i>
 						</div>
 						<div class="menu-title">category</div>
 					</a>
 				</li>
 				<li>
-					<a href="product/">
+					<a href="/product/">
 						<div class="parent-icon"> <i class="bx bx-shopping-bag"></i>
 						</div>
 						<div class="menu-title">Products</div>

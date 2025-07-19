@@ -15,7 +15,7 @@
 </div>
 @include('backend.pages.category.components.create')
 @include('backend.pages.category.components.edit')
-@endsection
+@endsection    
 
 @push('script')
 {{ $dataTable->scripts(attributes: ['type' => 'module']) }}

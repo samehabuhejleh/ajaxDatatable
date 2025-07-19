@@ -67,6 +67,11 @@ class CategoryDataTable extends DataTable
                         Button::make('csv')->className('btn btn-info me-1'),
                         Button::make('pdf')->className('btn btn-danger me-1'),
                         Button::make('print')->className('btn btn-warning me-1'),
+                        Button::make([
+                            'text' => 'Reload',
+                            'action' => 'function (e, dt, node, config) { dt.ajax.reload(); }',
+                            'className' => 'btn btn-secondary'
+                        ])
                     ]);
 
     }

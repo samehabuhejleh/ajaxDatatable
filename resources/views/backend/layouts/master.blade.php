@@ -25,6 +25,10 @@
 	<link rel="stylesheet" href="{{asset('assets/css/dark-theme.css')}}" />
 	<link rel="stylesheet" href="{{asset('assets/css/semi-dark.css')}}" />
 	<link rel="stylesheet" href="{{asset('assets/css/header-colors.css')}}" />
+
+	<!-- DataTables Buttons CSS -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.bootstrap5.min.css" />
+
 	<title>Rukada - Responsive Bootstrap 5 Admin Template</title>
 </head>
 
@@ -168,11 +172,23 @@
 			  $(".knob").knob();
 		  });
 	  </script>
-	  <script src="{{asset('assets/js/index.js')}}"></script>
+	  {{-- <script src="{{asset('assets/js/index.js')}}"></script> --}}
 	<!--app JS-->
 	<script src="{{asset('assets/js/app.js')}}"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.bootstrap5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+	<!-- Optional file generation libs (for excel/pdf exports) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
     @stack('script')
 </body>
 </html>

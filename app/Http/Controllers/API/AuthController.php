@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\DB;
 
 class AuthController extends Controller
 {
+
+   
     public function register(RegisterRequest $request)
     {
         DB::beginTransaction();
@@ -22,9 +24,9 @@ class AuthController extends Controller
                 'email'    => $request->email,
                 'password' => Hash::make($request->password),
             ]);
-            
+
             $user->addRole('user');
-            
+
             $token = $user->createToken('api_token')->plainTextToken;
 
             DB::commit();
